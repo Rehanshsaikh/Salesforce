@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>SendEmailIfMaxPayIsGreaterThanOneLac</fullName>
+        <ccEmails>ateefansari@iqratechnology.com</ccEmails>
+        <description>SendEmailIfMaxPayIsGreaterThanOneLac</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>rehanshaikh@salseforce.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/hiring_manager_templet</template>
+    </alerts>
+    <alerts>
+        <fullName>email_send_to_hiring_manager</fullName>
+        <description>email send to hiring manager</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jasonsmith@salseforce.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>rehanshaikh@salseforce.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/hiring_manager_templet</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Update_the_max_pay</fullName>
+        <description>updates mas pay</description>
+        <field>Max_Pay__c</field>
+        <formula>12345678</formula>
+        <name>Update the max pay</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <outboundMessages>
+        <fullName>Outbound_msg</fullName>
+        <apiVersion>55.0</apiVersion>
+        <description>I don&#39;t know anything about it</description>
+        <endpointUrl>https://mail.google.com/mail/u/1/#inbox/FMfcgzGpHHSGMnkwfpxNdvJNGtbwWQKj</endpointUrl>
+        <fields>Id</fields>
+        <fields>Max_Pay__c</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>rehanshaikh@salseforce.com</integrationUser>
+        <name>Outbound msg</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <tasks>
+        <fullName>Do_whatever_you_want</fullName>
+        <assignedTo>nehapaur@salseforce.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <description>hey here for 15 days we give you opportunity to be free</description>
+        <dueDateOffset>15</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <offsetFromField>position__c.CreatedDate</offsetFromField>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Do whatever you want</subject>
+    </tasks>
+</Workflow>

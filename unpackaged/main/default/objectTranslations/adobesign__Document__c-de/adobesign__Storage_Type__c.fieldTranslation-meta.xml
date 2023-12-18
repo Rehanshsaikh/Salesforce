@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Er wird über den Wert Storage_Type in der Dokumentvorlage automatisch festgelegt.</help>
+        <label><!-- Storage Type --></label>
+        <name>adobesign__Storage_Type__c</name>
+    </CustomFieldTranslation>

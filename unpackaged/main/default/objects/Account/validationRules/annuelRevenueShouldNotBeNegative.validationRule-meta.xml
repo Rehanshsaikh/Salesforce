@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>annuelRevenueShouldNotBeNegative</fullName>
+    <active>false</active>
+    <errorConditionFormula>AnnualRevenue   &lt;  0  ||  AnnualRevenue   &gt;  100000000000</errorConditionFormula>
+    <errorMessage>You should enter a positive value less than 100 billion</errorMessage>
+</ValidationRule>

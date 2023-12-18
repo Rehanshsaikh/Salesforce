@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>文档模板文件的 Salesforce 记录 ID。</help>
+        <label><!-- Template File --></label>
+        <name>adobesign__Template_File__c</name>
+    </CustomFieldTranslation>

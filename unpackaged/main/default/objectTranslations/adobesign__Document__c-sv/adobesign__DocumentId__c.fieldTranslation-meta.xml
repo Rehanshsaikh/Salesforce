@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>ID antingen för Salesforce ContentVersion eller bilagepost</help>
+        <label><!-- DocumentId --></label>
+        <name>adobesign__DocumentId__c</name>
+    </CustomFieldTranslation>

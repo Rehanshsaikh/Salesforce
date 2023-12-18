@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edition_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Edition Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Physical</fullName>
+                <default>false</default>
+                <label>Physical</label>
+            </value>
+            <value>
+                <fullName>Virtual</fullName>
+                <default>false</default>
+                <label>Virtual</label>
+            </value>
+            <value>
+                <fullName>Physical - Insurance</fullName>
+                <default>false</default>
+                <label>Physical - Insurance</label>
+            </value>
+            <value>
+                <fullName>Virtual - Insurance</fullName>
+                <default>false</default>
+                <label>Virtual - Insurance</label>
+            </value>
+            <value>
+                <fullName>Digital Product</fullName>
+                <default>false</default>
+                <label>Digital Product</label>
+            </value>
+            <value>
+                <fullName>Publising</fullName>
+                <default>false</default>
+                <label>Publising</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

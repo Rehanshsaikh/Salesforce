@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>new page layout</layout>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Action --></label>
+        <name>Action</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Screen Action --></label>
+        <name>Screen_Action</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create new case --></label>
+        <name>Create_new_case</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Testing Record Type --></label>
+        <name>Testing_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- again --></label>
+        <name>again</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- want to learn something new --></label>
+        <name>want_to_learn_something_new</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You should enter a positive value less than 100 billion --></errorMessage>
+        <name>annuelRevenueShouldNotBeNegative</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- YOU SHOUD ADD TWO CHAR ONLY --></errorMessage>
+        <name>char2AbbreOfBillingCountryRelatedToCA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- please provide correct --></errorMessage>
+        <name>putRightNumber</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Composer_SP_Account_Brief --></label>
+        <name>Conga_Composer_Composer_SP_Account_Brief</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Test_Button --></label>
+        <name>Test_Button</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hit_Error_While_Deleting_Contact</fullName>
+    <active>true</active>
+    <errorConditionFormula>Dont_Delete__c</errorConditionFormula>
+    <errorMessage>You can not delete a record because it is associated with parent</errorMessage>
+</ValidationRule>

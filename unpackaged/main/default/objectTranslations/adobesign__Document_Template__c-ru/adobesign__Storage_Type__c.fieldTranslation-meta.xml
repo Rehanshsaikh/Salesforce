@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Выберите \\&quot;Файлы\\&quot; для совместимости пакета с системой на базе файлов Salesforce последнего поколения. Выберите \\&quot;Вложения\\&quot;, чтобы использовать устаревший тип объекта хранения.</help>
+        <label><!-- Storage Type --></label>
+        <name>adobesign__Storage_Type__c</name>
+    </CustomFieldTranslation>

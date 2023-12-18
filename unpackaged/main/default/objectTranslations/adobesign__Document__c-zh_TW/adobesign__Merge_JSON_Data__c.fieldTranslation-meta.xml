@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>儲存文件合併資料的序列化 JSON 字串</help>
+        <label><!-- Merge JSON Data --></label>
+        <name>adobesign__Merge_JSON_Data__c</name>
+    </CustomFieldTranslation>

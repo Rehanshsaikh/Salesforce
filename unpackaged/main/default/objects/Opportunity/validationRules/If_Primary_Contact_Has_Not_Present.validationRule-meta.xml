@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_Primary_Contact_Has_Not_Present</fullName>
+    <active>false</active>
+    <errorConditionFormula>No_there_is_no_contact_role__c</errorConditionFormula>
+    <errorMessage>Please add the contact role</errorMessage>
+</ValidationRule>

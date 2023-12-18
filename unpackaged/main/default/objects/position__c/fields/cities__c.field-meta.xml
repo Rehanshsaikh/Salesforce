@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cities__c</fullName>
+    <externalId>false</externalId>
+    <label>cities</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>state__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aurangabad</fullName>
+                <default>false</default>
+                <label>Aurangabad</label>
+            </value>
+            <value>
+                <fullName>Jalgaon</fullName>
+                <default>false</default>
+                <label>Jalgaon</label>
+            </value>
+            <value>
+                <fullName>pune</fullName>
+                <default>false</default>
+                <label>pune</label>
+            </value>
+            <value>
+                <fullName>Ahmadnagar</fullName>
+                <default>false</default>
+                <label>Ahmadnagar</label>
+            </value>
+            <value>
+                <fullName>Gujarat 1</fullName>
+                <default>false</default>
+                <label>Gujarat 1</label>
+            </value>
+            <value>
+                <fullName>Gujarat 2</fullName>
+                <default>false</default>
+                <label>Gujarat 2</label>
+            </value>
+            <value>
+                <fullName>Rajasthan 1</fullName>
+                <default>false</default>
+                <label>Rajasthan 1</label>
+            </value>
+            <value>
+                <fullName>Rajasthan 2</fullName>
+                <default>false</default>
+                <label>Rajasthan 2</label>
+            </value>
+            <value>
+                <fullName>mp 1</fullName>
+                <default>false</default>
+                <label>mp 1</label>
+            </value>
+            <value>
+                <fullName>mp 2</fullName>
+                <default>false</default>
+                <label>mp 2</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Aurangabad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Jalgaon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>pune</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maharashtra</controllingFieldValue>
+            <valueName>Ahmadnagar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gujarat</controllingFieldValue>
+            <valueName>Gujarat 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gujarat</controllingFieldValue>
+            <valueName>Gujarat 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>mp</controllingFieldValue>
+            <valueName>mp 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>mp</controllingFieldValue>
+            <valueName>mp 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rajasthan</controllingFieldValue>
+            <valueName>Rajasthan 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rajasthan</controllingFieldValue>
+            <valueName>Rajasthan 2</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

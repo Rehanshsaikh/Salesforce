@@ -1,0 +1,29 @@
+.table-wrapper {
+    display: flex;
+    overflow-x: auto;
+}
+
+.fixed-column {
+    min-width: 150px; /* Set an appropriate width for your columns */
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    background: #FFF; /* Ensure background is white */
+    left: 0;
+    z-index: 1;
+}
+
+.scrollable-content {
+    overflow-x: auto;
+}
+
+/* Add styling for your table as needed */
+table {
+    border-collapse: collapse;
+    width: 100%; /* Adjust the width as needed */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Add border styles as needed */
+    padding: 8px;
+    text-align: left;
+}

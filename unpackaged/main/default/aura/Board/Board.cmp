@@ -1,0 +1,50 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global">
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <!-- <aura:handler name="customEvent"  event="c:BlockClickEvent" action="{!c.blockClickHandler}" /> -->
+    <!-- <aura:handler name="render" value="{!this}" action="{!c.doRender}" /> -->
+
+    <aura:attribute name="mode" type="String" default="easy" />
+    <aura:attribute name="blockSize" type="Integer" />
+    <aura:attribute name="words" type="List" />
+    <aura:attribute name="winWord" type="String" />
+    <aura:attribute name="result" type="Boolean" />
+    <aura:attribute name="openVal" type="Boolean" default="false" />
+    <aura:attribute name="status" type="String" />
+    <aura:attribute name="clickCount" type="Integer" default="0" />
+
+    <aura:method name="restart" action="{!c.doInit}"/>
+    <!-- <aura:method name="shuffle" action="{!c.callRandomiseArray}"/> -->
+
+    <div class="board">
+        <lightning:layout multipleRows="true">
+            <lightning:layoutItem padding="around-small">
+                <h1 class="slds-text-heading_small">Word: <span class="win-word">{!v.winWord}</span></h1>
+            </lightning:layoutItem>
+
+            <lightning:layoutItem padding="around-small">
+                {!v.status}
+            </lightning:layoutItem>
+
+            <lightning:layoutItem  padding="around-small">
+                <p class="slds-text-heading_small">Moves Left: {!(3 - v.clickCount)}</p>
+            </lightning:layoutItem>
+        </lightning:layout>
+        <aura:if isTrue="{!v.result}">
+            <div class="card-disabled"></div>
+        </aura:if>
+        <lightning:layout multipleRows="true">
+
+            <aura:iteration items="{!v.words}" var="word">
+                <lightning:layoutItem size="{!v.blockSize}" padding="around-small">
+                    <c:Block customEvent="{!c.blockClickHandler}" label="{!word.word}" open="{!word.open}" ></c:Block>
+                   
+                </lightning:layoutItem>
+            </aura:iteration>
+
+           
+
+        </lightning:layout>
+    </div>  
+
+</aura:component>

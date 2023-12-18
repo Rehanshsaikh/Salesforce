@@ -1,0 +1,42 @@
+<template>
+    <lightning-card title="Show Records Component">
+        <div class="slds-box"> 
+            <lightning-input 
+            name = 'Object'
+            type="text"
+            label="Enter Object Name"
+            required=""
+            onkeyup={handleClick}
+            class="slds-m-horizontal_x-small"
+            ></lightning-input>
+        
+            <lightning-input 
+            name = 'Field'
+            type="text"
+            label="Enter field Name"
+            required=""
+            class="slds-m-horizontal_x-small"
+            onkeyup={handleClick}
+            ></lightning-input>
+        
+            <lightning-input 
+            name = 'Limit'
+            type="text"
+            label="Enter Limit Number"
+            required=""
+            class="slds-m-horizontal_x-small"
+            onkeyup={handleClick}
+            ></lightning-input>
+        </div>
+       <br>
+    <div>
+        <lightning-button 
+        variant="success"
+        label="Show Records" 
+        onclick={handleClick} 
+        ></lightning-button>
+    </div>
+       
+    
+    </lightning-card>
+    </template>

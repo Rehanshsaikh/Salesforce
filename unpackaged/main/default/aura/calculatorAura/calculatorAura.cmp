@@ -1,0 +1,22 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="Global">
+    <aura:attribute name="number1" type="Integer"/>
+    <aura:attribute name="option" type="Integer"/>
+    <aura:attribute name="number2" type="Integer"/>
+    <aura:attribute name="result" type="Integer"/>
+    <aura:attribute name="options" type="List" default="[
+                                                            {'label': 'Addition', 'value':'addition'},
+                                                            {'label': 'Subtraction', 'value':'subtraction'},
+                                                            {'label': 'Division', 'value':'division'},
+                                                            {'label': 'Multiplication', 'value':'multiplication'}
+                                                        ]" />
+
+    <lightning:card title="Calculator" iconName="custom:custom18">
+        <div class="slds-p-around_medium">
+            <lightning:input value="{!v.number1}" class="slds-m-horizontal_x-small" type="number" name="num1" label="Number 1"/>
+            <lightning:input value="{!v.number2}" class="slds-m-horizontal_x-small" type="number" name="num2" label="Number 2"/>
+            <lightning:combobox value="{!v.option}" name="operation" label="Operation" class="slds-m-horizontal_x-small" options="{!v.options}"/>
+            <lightning:button class="slds-m-horizontal_x-small slds-m-top_small" label="Calculate" onclick="{!c.clickHandler}"></lightning:button>
+        </div>
+    </lightning:card>
+    
+</aura:component>

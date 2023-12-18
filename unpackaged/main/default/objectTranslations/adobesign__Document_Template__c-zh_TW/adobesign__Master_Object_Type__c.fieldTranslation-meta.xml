@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>指定這個文件範本將參考的 Salesforce 物件 (例如機會、商機)</help>
+        <label><!-- Main Data Source --></label>
+        <name>adobesign__Master_Object_Type__c</name>
+    </CustomFieldTranslation>

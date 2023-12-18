@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Edition Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>In Draft</fullName>
+                <default>false</default>
+                <label>In Draft</label>
+            </value>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+                <label>Inactive</label>
+            </value>
+            <value>
+                <fullName>Cost Ready</fullName>
+                <default>false</default>
+                <label>Cost Ready</label>
+            </value>
+            <value>
+                <fullName>Cost Revenue Ready</fullName>
+                <default>false</default>
+                <label>Cost Revenue Ready</label>
+            </value>
+            <value>
+                <fullName>Sales Closed</fullName>
+                <default>false</default>
+                <label>Sales Closed</label>
+            </value>
+            <value>
+                <fullName>Finance Closed</fullName>
+                <default>false</default>
+                <label>Finance Closed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

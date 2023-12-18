@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Valitse Tiedostot, jotta paketti toimii uusimman sukupolven Salesforce-tiedostoihin perustuvan järjestelmän kanssa. Valitse Liitteet, jos haluat käyttää vanhaa tietosäilöobjektityyppiä.</help>
+        <label><!-- Storage Type --></label>
+        <name>adobesign__Storage_Type__c</name>
+    </CustomFieldTranslation>

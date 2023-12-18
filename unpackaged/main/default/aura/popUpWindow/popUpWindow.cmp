@@ -1,0 +1,31 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global">
+    
+<div class="container">
+    <!-- Button to trigger the panel -->
+    <button class="button" onclick="{!c.togglePanel}">Toggle Panel</button>
+
+    <!-- Panel container on the left -->
+    <div class="panel-container" aura:id="panel">
+        <!-- White background for the panel -->
+        <div class="panel-background">
+            <!-- Close button in the panel -->
+            <span class="close-button" onclick="{!c.togglePanel}">X</span>
+
+            <!-- Your table content goes here -->
+            <table>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                </tr>
+                <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <!-- Semi-transparent overlay with blur on the right -->
+    <div class="overlay" aura:id="overlay"></div>
+</div>
+</aura:component>

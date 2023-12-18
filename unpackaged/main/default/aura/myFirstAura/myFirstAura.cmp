@@ -1,0 +1,40 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" 
+                            >
+    <!-- <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler name="render" value="{!this}" action="{!c.doRender}" /> -->
+
+<!-- Attribute Section  -->
+    <aura:attribute 
+    name="rehan"
+    type="List"
+    default="[
+    {'label':'Rehan','value':'Shaikh'},
+    {'label':'Salim','value':'Pathan'}
+    ]"/>
+
+    <aura:attribute
+    name="test"
+    type="String"
+    default="Rehan"/>
+<!-- Attribute Section  -->
+
+<lightning:card>
+        <select name="Select"  aura:id="select">
+            <option label="First" value="1"></option>
+            <option label="Second" value="2"></option>
+            <option label="Third" value="3"></option>
+        </select>
+        <lightning:combobox
+        onchange="{!c.clickMe}"
+        name="Box"
+       
+        value="New"
+        aura:id="box"
+        options="{!v.rehan}"></lightning:combobox>
+        this is the list : {!v.test}
+
+        <button onclick="{!c.clickMe}"></button>
+
+    </lightning:card>
+
+</aura:component>

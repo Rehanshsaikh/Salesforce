@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- cities --></label>
+        <name>cities__c</name>
+        <picklistValues>
+            <masterLabel>Ahmadnagar</masterLabel>
+            <translation><!-- Ahmadnagar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aurangabad</masterLabel>
+            <translation><!-- Aurangabad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gujarat 1</masterLabel>
+            <translation><!-- Gujarat 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gujarat 2</masterLabel>
+            <translation><!-- Gujarat 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jalgaon</masterLabel>
+            <translation><!-- Jalgaon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rajasthan 1</masterLabel>
+            <translation><!-- Rajasthan 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rajasthan 2</masterLabel>
+            <translation><!-- Rajasthan 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mp 1</masterLabel>
+            <translation><!-- mp 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mp 2</masterLabel>
+            <translation><!-- mp 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pune</masterLabel>
+            <translation><!-- pune --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

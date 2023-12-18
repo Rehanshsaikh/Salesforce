@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>使用用于轮询或重新获取最终输出内容的 URL 作为端点，调用 GET API。</help>
+        <label><!-- Location --></label>
+        <name>adobesign__Location__c</name>
+    </CustomFieldTranslation>

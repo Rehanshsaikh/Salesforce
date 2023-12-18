@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Un drapeau indique si les balises de document sont à jour.</help>
+        <label><!-- Document Tags Up to Date --></label>
+        <name>adobesign__Tags_UpToDate__c</name>
+    </CustomFieldTranslation>

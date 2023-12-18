@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Um sinalizador indica se o modelo de documento está ou não ativo para uso.</help>
+        <label><!-- Active --></label>
+        <name>adobesign__Active__c</name>
+    </CustomFieldTranslation>

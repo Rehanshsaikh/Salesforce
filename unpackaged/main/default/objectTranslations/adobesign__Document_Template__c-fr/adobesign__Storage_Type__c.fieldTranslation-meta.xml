@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Sélectionnez Fichiers pour que le package fonctionne avec le système basé sur les fichiers Salesforce de dernière génération. Sélectionnez Pièces jointes pour utiliser le type d’objet de stockage hérité.</help>
+        <label><!-- Storage Type --></label>
+        <name>adobesign__Storage_Type__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Test</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <senderEmail>rshaikh0530@gmail.com</senderEmail>
+            <senderName>Rehan</senderName>
+            <template>unfiled$public/hiring_manager_templet</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

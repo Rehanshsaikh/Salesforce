@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>เลือกไฟล์เพื่อให้แพ็คเกจทำงานกับไฟล์ Salesforce ที่ระบบสร้างขึ้นล่าสุด เลือกเอกสารแนบที่จะใช้ประเภทออบเจกต์พื้นที่จัดเก็บข้อมูลรุ่นเดิม</help>
+        <label><!-- Storage Type --></label>
+        <name>adobesign__Storage_Type__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,17 @@
+.top{
+    height: 100px;
+    width: 100px;
+    background-color: #AA77FF;
+    position: relative;
+    
+}
+.middle{
+    height: 100px;
+    width: 100px;
+    background-color: #8D7B68;
+}
+.bottom{
+    height: 100px;
+    width: 100px;
+    background-color: #EDE9D5;
+}

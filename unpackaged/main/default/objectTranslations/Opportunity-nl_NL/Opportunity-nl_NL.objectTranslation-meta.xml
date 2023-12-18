@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <recordTypes>
+        <label><!-- Finance Opportunity --></label>
+        <name>Finance_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sales Opportunity --></label>
+        <name>SalesOpportunity</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- you can not create opportunity of edition stage sales closed --></errorMessage>
+        <name>CantCreateOppoOfSalesClosedEdition</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- you can not create opportunity of edition stage sales closed --></errorMessage>
+        <name>CantCreateOppoOfSalesClosedEdition2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- yup --></errorMessage>
+        <name>Dont_make_mistake</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please add the contact role --></errorMessage>
+        <name>If_Primary_Contact_Has_Not_Present</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Dont do this thing --></errorMessage>
+        <name>Opportunity_validation_for_Amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide correct number with country code --></errorMessage>
+        <name>Phone_Number_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not create opportunity because you have that permission --></errorMessage>
+        <name>Testing_Permission_without_Custom_sett</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- there is something is different --></errorMessage>
+        <name>just_checking</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- DeliveryStatus --></label>
+        <name>DeliveryStatus</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- TEST --></label>
+        <name>TEST</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- my_new_button --></label>
+        <name>my_new_button</name>
+    </webLinks>
+</CustomObjectTranslation>

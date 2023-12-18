@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <dynamicChoiceSets>
+        <name>ProductRecord</name>
+        <dataType>String</dataType>
+        <displayField>Name</displayField>
+        <object>Product2</object>
+        <valueField>Id</valueField>
+    </dynamicChoiceSets>
+    <environments>Default</environments>
+    <interviewLabel>Flow for To add product with quantity {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Flow for To add product with quantity</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <screens>
+        <name>Choose_Product</name>
+        <label>Choose Product</label>
+        <locationX>176</locationX>
+        <locationY>158</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Product</name>
+            <choiceReferences>ProductRecord</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Product</fieldText>
+            <fieldType>MultiSelectCheckboxes</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Choose_Product</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+</Flow>

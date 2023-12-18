@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Division__c</fullName>
+    <externalId>false</externalId>
+    <label>Division</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Central</fullName>
+                <default>false</default>
+                <label>Central</label>
+            </value>
+            <value>
+                <fullName>Energy</fullName>
+                <default>false</default>
+                <label>Energy</label>
+            </value>
+            <value>
+                <fullName>MEAA</fullName>
+                <default>false</default>
+                <label>MEAA</label>
+            </value>
+            <value>
+                <fullName>Non Trading</fullName>
+                <default>false</default>
+                <label>Non Trading</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

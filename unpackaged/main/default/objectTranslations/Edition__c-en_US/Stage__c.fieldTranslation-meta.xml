@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>Finance Closed</masterLabel>
+            <translation><!-- Finance Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Closed</masterLabel>
+            <translation><!-- Sales Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Open</masterLabel>
+            <translation><!-- Sales Open --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

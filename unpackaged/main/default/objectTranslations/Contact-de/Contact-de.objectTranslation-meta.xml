@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <quickActions>
+        <label><!-- Dispatch Event Action --></label>
+        <name>DispatchEventAction</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Edit Record Action --></label>
+        <name>EditRecordAction</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Edit Contact --></label>
+        <name>Edit_Contact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Navigate To List Action --></label>
+        <name>NavigateToRecordAction</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- There is duplicate name in it --></errorMessage>
+        <name>Do_not_Duplicate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not delete a record because it is associated with parent --></errorMessage>
+        <name>Hit_Error_While_Deleting_Contact</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Dont show attitude --></errorMessage>
+        <name>Just_Time_Pass</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Flow_Button --></label>
+        <name>Flow_Button</name>
+    </webLinks>
+</CustomObjectTranslation>

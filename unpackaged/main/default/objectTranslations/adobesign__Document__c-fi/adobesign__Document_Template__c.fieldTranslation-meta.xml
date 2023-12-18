@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Tämän dokumentin luontiin käytetyn dokumenttimallin hakukenttä.</help>
+        <label><!-- Document Template --></label>
+        <name>adobesign__Document_Template__c</name>
+        <relationshipLabel><!-- Document Builder Documents --></relationshipLabel>
+    </CustomFieldTranslation>

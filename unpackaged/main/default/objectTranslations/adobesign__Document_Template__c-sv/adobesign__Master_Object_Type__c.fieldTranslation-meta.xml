@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Ange Salesforce-objektet som ska refereras för denna dokumentmall (t.ex. Opportunity, Lead)</help>
+        <label><!-- Main Data Source --></label>
+        <name>adobesign__Master_Object_Type__c</name>
+    </CustomFieldTranslation>

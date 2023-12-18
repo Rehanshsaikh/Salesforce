@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>char2AbbreOfBillingCountryRelatedToCA</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(
+    BillingCountry =&#39;CA&#39; ||  BillingCountry =&#39;CAN&#39;,   
+    NOT(LEN( ShippingState )= 2)  , 
+    False
+    )</errorConditionFormula>
+    <errorMessage>YOU SHOUD ADD TWO CHAR ONLY</errorMessage>
+</ValidationRule>

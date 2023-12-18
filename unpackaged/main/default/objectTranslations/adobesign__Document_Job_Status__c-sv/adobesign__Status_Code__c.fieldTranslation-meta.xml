@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Statuskoden för dokumentgenereringsjobbet</help>
+        <label><!-- Status Code --></label>
+        <name>adobesign__Status_Code__c</name>
+    </CustomFieldTranslation>

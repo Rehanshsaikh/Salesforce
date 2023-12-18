@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Флажок указывает, активен ли шаблон документа для использования.</help>
+        <label><!-- Active --></label>
+        <name>adobesign__Active__c</name>
+    </CustomFieldTranslation>

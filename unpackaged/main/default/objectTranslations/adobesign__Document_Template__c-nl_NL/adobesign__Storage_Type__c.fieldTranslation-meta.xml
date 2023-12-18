@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Selecteer Bestanden, zodat het pakket compatibel is met het nieuwste op bestanden gebaseerde Salesforce-systeem. Selecteer Bijlagen om het verouderde type opslagobject te gebruiken.</help>
+        <label><!-- Storage Type --></label>
+        <name>adobesign__Storage_Type__c</name>
+    </CustomFieldTranslation>

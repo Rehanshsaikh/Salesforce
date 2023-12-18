@@ -1,0 +1,52 @@
+{
+  "appPageId" : "768a0304-8b72-474c-aa77-acd07eca9af0",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "dataProviders" : [ ],
+  "id" : "363b07e3-dd20-4790-80ff-82ec3e945384",
+  "label" : "jp_receipt",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"a61ea24e-db88-4a55-bd05-9aba45fbb977\",\"columns\":[{\"UUID\":\"8a9b3121-78aa-4e7f-9ba3-8d3e36da6c5a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "a61ea24e-db88-4a55-bd05-9aba45fbb977",
+      "regions" : [ {
+        "id" : "8a9b3121-78aa-4e7f-9ba3-8d3e36da6c5a",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "3bcf0d48-67d2-4d1b-91fb-6aa4e617ac5d",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "jp_receipt",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "0dda134c-299a-459c-a920-556e7ed735dd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0fd5b967-1f31-4092-a9d3-423f70488c63",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-jp-receipt"
+}

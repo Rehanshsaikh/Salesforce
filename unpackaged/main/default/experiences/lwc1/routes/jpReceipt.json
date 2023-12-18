@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "363b07e3-dd20-4790-80ff-82ec3e945384",
+  "appPageId" : "768a0304-8b72-474c-aa77-acd07eca9af0",
+  "configurationTags" : [ ],
+  "id" : "89c7b9a2-d732-4ee8-9e4b-d41b59b08ca9",
+  "label" : "jp_receipt",
+  "routeType" : "custom-jp-receipt",
+  "type" : "route",
+  "urlPrefix" : "jp-receipt"
+}

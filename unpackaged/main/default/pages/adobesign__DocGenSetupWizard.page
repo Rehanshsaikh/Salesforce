@@ -1,0 +1,22 @@
+<apex:page >
+    <apex:includeScript value="/lightning/lightning.out.js" />
+    <apex:includeLightning />
+    <div id="lightning"/>
+    <script>
+        var appName = "adobesign:contractBuilderSetupApp";
+        var cmpName = "adobesign:contractBuilderSetupAura";
+
+        $Lightning.use(appName, function() {
+            $Lightning.createComponent(cmpName,
+            { 
+                "oauthCode" : "{! JSENCODE($CurrentPage.parameters.code) }",
+                "oauthError" : "{! JSENCODE($CurrentPage.parameters.error) }",
+                "oauthErrorDescription" : "{! JSENCODE($CurrentPage.parameters.error_description) }",
+                "oauthState" : "{! JSENCODE($CurrentPage.parameters.state) }"
+            },
+            "lightning",
+            function(cmp) {
+            });
+        });
+    </script>
+</apex:page>

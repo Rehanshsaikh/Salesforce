@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_validation_for_Amount</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR(
+   AND( 
+     NOT( ISPICKVAL( StageName , &#39;Prospecting&#39;)) , 
+     Amount &lt; 1000
+    ),
+   AND(
+        IF(
+           NOT(&#39;Prospecting&#39; == PRIORVALUE(StageName)),
+           AND(
+               Amount &gt; 1000,
+               ISPICKVAL( StageName , &#39;Prospecting&#39;)
+               ),
+           False
+           ) 
+       )
+)</errorConditionFormula>
+    <errorMessage>Dont do this thing</errorMessage>
+</ValidationRule>

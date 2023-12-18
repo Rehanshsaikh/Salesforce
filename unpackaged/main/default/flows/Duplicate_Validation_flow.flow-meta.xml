@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <decisions>
+        <name>Check_Duplicate</name>
+        <label>Check Duplicate</label>
+        <locationX>990</locationX>
+        <locationY>791</locationY>
+        <defaultConnector>
+            <targetReference>Loop_through_get_Record_element_to_check_duplicate</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yeah_duplicate_found</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LastName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Loop_through_get_Record_element_to_check_duplicate.LastName</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Check_the_ckeckbox</targetReference>
+            </connector>
+            <label>Yeah duplicate found</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>check_if_contact_has_related_account_or_not</name>
+        <label>check if contact has related account or not</label>
+        <locationX>176</locationX>
+        <locationY>311</locationY>
+        <defaultConnector>
+            <targetReference>Get_all_contact_related_to_account</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes_it_does_not_have</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.AccountId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Yes it does not have</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_null_values</name>
+        <label>Check null values</label>
+        <locationX>462</locationX>
+        <locationY>551</locationY>
+        <defaultConnector>
+            <targetReference>Loop_through_get_Record_element_to_check_duplicate</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes_it_is_null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_all_contact_related_to_account</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Yes it is null</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Duplicate Validation flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Duplicate Validation flow</label>
+    <loops>
+        <name>Loop_through_get_Record_element_to_check_duplicate</name>
+        <label>Loop through get Record element to check duplicate</label>
+        <locationX>770</locationX>
+        <locationY>671</locationY>
+        <collectionReference>Get_all_contact_related_to_account</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Check_Duplicate</targetReference>
+        </nextValueConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_all_contact_related_to_account</name>
+        <label>Get all contact related to account</label>
+        <locationX>462</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check_null_values</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Account.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Check_the_ckeckbox</name>
+        <label>Check the ckeckbox</label>
+        <locationX>858</locationX>
+        <locationY>911</locationY>
+        <inputAssignments>
+            <field>Yes_Duplicate__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>check_if_contact_has_related_account_or_not</targetReference>
+        </connector>
+        <object>Contact</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

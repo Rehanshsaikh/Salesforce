@@ -1,0 +1,47 @@
+/* SlidingPanel.css */
+.THIS .container {
+    display: flex;
+}
+
+.THIS .button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+}
+
+.THIS .panel-container {
+    width: 0;
+    height: 100vh;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: width 1s;
+}
+
+.THIS .panel-background {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: relative;
+}
+
+.THIS .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.THIS .overlay {
+    width: 50%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0);
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: background 1s;
+}

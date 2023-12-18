@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>文書結合データを格納するシリアル化された JSON 文字列</help>
+        <label><!-- Merge JSON Data --></label>
+        <name>adobesign__Merge_JSON_Data__c</name>
+    </CustomFieldTranslation>

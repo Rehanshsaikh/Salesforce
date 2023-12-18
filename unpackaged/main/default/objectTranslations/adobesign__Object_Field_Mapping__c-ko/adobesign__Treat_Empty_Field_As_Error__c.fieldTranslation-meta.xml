@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>플래그는 필드 값이 비어 있거나 null인 경우 데이터 병합을 계속해야 하는지 나타냅니다.</help>
+        <label><!-- Treat Empty Field Values As Error --></label>
+        <name>adobesign__Treat_Empty_Field_As_Error__c</name>
+    </CustomFieldTranslation>

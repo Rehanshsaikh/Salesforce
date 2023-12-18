@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Geben Sie das Salesforce-Objekt an, auf dass sich diese Dokumentvorlage bezieht (z. B. Opportunity, Lead).</help>
+        <label><!-- Main Data Source --></label>
+        <name>adobesign__Master_Object_Type__c</name>
+    </CustomFieldTranslation>

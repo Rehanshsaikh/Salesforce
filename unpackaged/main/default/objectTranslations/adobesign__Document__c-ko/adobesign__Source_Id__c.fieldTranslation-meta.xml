@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>데이터를 추출하는 데 사용되는 Salesforce 개체 레코드 ID입니다.</help>
+        <label><!-- Source Id --></label>
+        <name>adobesign__Source_Id__c</name>
+    </CustomFieldTranslation>

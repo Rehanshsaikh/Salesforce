@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>money_paid</fullName>
+        <description>money paid</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/money_is_paid</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>farmer_field</fullName>
+        <field>status_of_Payment__c</field>
+        <literalValue>Paid</literalValue>
+        <name>farmer field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>send email</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Product_Detail__c.status_of_Payment__c</field>
+            <operation>equals</operation>
+            <value>Paid</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>กำหนดหมายเลขซีเรียลของสตริง JSON ที่จัดเก็บข้อมูลการรวมเอกสารแล้ว</help>
+        <label><!-- Merge JSON Data --></label>
+        <name>adobesign__Merge_JSON_Data__c</name>
+    </CustomFieldTranslation>

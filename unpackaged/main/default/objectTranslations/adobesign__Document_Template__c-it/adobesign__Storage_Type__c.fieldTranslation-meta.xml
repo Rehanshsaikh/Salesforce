@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Seleziona File affinché il pacchetto funzioni con l’ultima generazione del sistema basato su file Salesforce. Seleziona Allegati per usare il precedente tipo di oggetto archiviazione.</help>
+        <label><!-- Storage Type --></label>
+        <name>adobesign__Storage_Type__c</name>
+    </CustomFieldTranslation>

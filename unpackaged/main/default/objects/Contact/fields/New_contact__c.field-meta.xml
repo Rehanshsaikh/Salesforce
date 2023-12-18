@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_contact__c</fullName>
+    <externalId>false</externalId>
+    <formula>&#39;https://iqra-e-dev-ed--c.vf.force.com/flow/Flow_for_URL?CityName=&#39; &amp;  MailingCity  &amp; &#39;&amp;PhoneNumber=&#39;  &amp; Phone &amp;  &#39;&amp;StateName=&#39; &amp;  MailingState &amp; &#39;&amp;LookupAccount=&#39; &amp;  AccountId</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>New contact</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- status of rent paid or not --></label>
+        <name>status_of_rent_paid_or_not__c</name>
+        <picklistValues>
+            <masterLabel>Not paid</masterLabel>
+            <translation><!-- Not paid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>paid</masterLabel>
+            <translation><!-- paid --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

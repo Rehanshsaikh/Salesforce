@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Edition Category --></label>
+        <name>Edition_Category__c</name>
+        <picklistValues>
+            <masterLabel>Digital Product</masterLabel>
+            <translation><!-- Digital Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical</masterLabel>
+            <translation><!-- Physical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical - Insurance</masterLabel>
+            <translation><!-- Physical - Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publising</masterLabel>
+            <translation><!-- Publising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virtual</masterLabel>
+            <translation><!-- Virtual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virtual - Insurance</masterLabel>
+            <translation><!-- Virtual - Insurance --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

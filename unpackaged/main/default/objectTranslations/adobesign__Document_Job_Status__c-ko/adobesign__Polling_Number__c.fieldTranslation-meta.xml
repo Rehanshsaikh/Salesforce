@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>문서 생성 작업 상태의 폴링을 위한 호출 횟수</help>
+        <label><!-- Polling Number --></label>
+        <name>adobesign__Polling_Number__c</name>
+    </CustomFieldTranslation>

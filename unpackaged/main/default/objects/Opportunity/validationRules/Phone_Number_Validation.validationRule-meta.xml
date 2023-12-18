@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_Number_Validation</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT( LEFT(Phone_Number__c, 3)== &#39;+91&#39; )  ||  NOT( LEN( Phone_Number__c )==13 )</errorConditionFormula>
+    <errorMessage>Please provide correct number with country code</errorMessage>
+</ValidationRule>

@@ -1,0 +1,16 @@
+<template>
+    <lightning-card>
+        <div class="editable" contenteditable=true onkeypress={handleChange}></div>
+        <lightning-button label="Send Email" onclick={sendEmail}></lightning-button>
+
+        <!-- <lightning-input-rich-text
+            value={emailBody}
+            onchange={handleChange}>
+        </lightning-input-rich-text> -->
+
+        <!-- <div class="content-editable" if:false={isEditing}></div>
+        <lightning-input rich-text="true" value={content} disabled={isEditing} if:true={isEditing} class="content-editable"></lightning-input>
+        <lightning-button label="Edit" onclick={toggleEditing}></lightning-button> -->
+    </lightning-card>
+    
+</template>

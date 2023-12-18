@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://login.salesforce.com</authorizeUrl>
+    <consumerKey>test</consumerKey>
+    <consumerSecret>Placeholder_Value</consumerSecret>
+    <friendlyName>Onedrive</friendlyName>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>MicrosoftACS</providerType>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+    <tokenUrl>https://login.salesforce.com</tokenUrl>
+</AuthProvider>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>內部服務傳回的狀態代碼</help>
+        <label><!-- Cpf Status --></label>
+        <name>adobesign__Cpf_Status__c</name>
+    </CustomFieldTranslation>

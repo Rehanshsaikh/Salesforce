@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Create Account">
+        <div class="slds-p-around_medium">
+            <lightning-input label="Account Name" value={accountName} onchange={handleInputChange}></lightning-input>
+            <!-- Other input fields here -->
+            <div class="slds-p-around_medium">
+                <a  onclick={handleSaveAndNavigate} class="custom-link">Save</a>
+            </div>
+            <div class="slds-p-around_medium">
+                <a href="https://example.com" class="custom-link">Cancel</a>
+            </div>
+        </div>
+    </lightning-card>
+</template>

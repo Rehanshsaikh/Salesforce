@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Edition Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost Ready</masterLabel>
+            <translation><!-- Cost Ready --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost Revenue Ready</masterLabel>
+            <translation><!-- Cost Revenue Ready --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance Closed</masterLabel>
+            <translation><!-- Finance Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Draft</masterLabel>
+            <translation><!-- In Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Closed</masterLabel>
+            <translation><!-- Sales Closed --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

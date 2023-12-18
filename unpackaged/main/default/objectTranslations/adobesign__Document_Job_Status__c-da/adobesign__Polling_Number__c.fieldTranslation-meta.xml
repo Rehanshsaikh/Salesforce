@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Nummeret på forklaringen på status for polling af job til generering af dokument</help>
+        <label><!-- Polling Number --></label>
+        <name>adobesign__Polling_Number__c</name>
+    </CustomFieldTranslation>

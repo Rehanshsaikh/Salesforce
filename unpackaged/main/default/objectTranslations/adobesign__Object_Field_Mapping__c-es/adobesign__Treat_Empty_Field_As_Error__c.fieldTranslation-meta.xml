@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Un indicador señala si la fusión de datos debería de continuar con valores de campo vacíos o nulos.</help>
+        <label><!-- Treat Empty Field Values As Error --></label>
+        <name>adobesign__Treat_Empty_Field_As_Error__c</name>
+    </CustomFieldTranslation>

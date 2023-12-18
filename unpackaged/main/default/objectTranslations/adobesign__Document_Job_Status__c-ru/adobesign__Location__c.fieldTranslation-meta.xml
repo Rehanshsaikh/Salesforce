@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>URL-адрес для запроса или повторного извлечения окончательного выходного контента. Используйте его в качестве конечной точки для вызова GET API.</help>
+        <label><!-- Location --></label>
+        <name>adobesign__Location__c</name>
+    </CustomFieldTranslation>

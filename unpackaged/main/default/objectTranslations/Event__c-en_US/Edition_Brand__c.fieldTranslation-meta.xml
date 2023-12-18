@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Edition Brand --></label>
+        <name>Edition_Brand__c</name>
+        <picklistValues>
+            <masterLabel>ABILITIESme</masterLabel>
+            <translation><!-- ABILITIESme --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADIPEC</masterLabel>
+            <translation><!-- ADIPEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADIPEC Conference</masterLabel>
+            <translation><!-- ADIPEC Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADIPEC Publication</masterLabel>
+            <translation><!-- ADIPEC Publication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AGPC</masterLabel>
+            <translation><!-- AGPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APAC Small Mid-Scale LNG Forum</masterLabel>
+            <translation><!-- APAC Small Mid-Scale LNG Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASEAN Energy Business Forum</masterLabel>
+            <translation><!-- ASEAN Energy Business Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Africa Energy Forum</masterLabel>
+            <translation><!-- Africa Energy Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Africa Renewable Energy Leaders Summit</masterLabel>
+            <translation><!-- Africa Renewable Energy Leaders Summit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Africas Big 7</masterLabel>
+            <translation><!-- Africas Big 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angola Energy &amp; Mining</masterLabel>
+            <translation><!-- Angola Energy &amp; Mining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia Clean Energy Summit</masterLabel>
+            <translation><!-- Asia Clean Energy Summit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia Coating Congress Vietnam</masterLabel>
+            <translation><!-- Asia Coating Congress Vietnam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia Pacific Coatings Journal</masterLabel>
+            <translation><!-- Asia Pacific Coatings Journal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia Pacific Coatings Show</masterLabel>
+            <translation><!-- Asia Pacific Coatings Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia Pacific Geothermal Energy Forum</masterLabel>
+            <translation><!-- Asia Pacific Geothermal Energy Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atlantic Canada Petroleum Show</masterLabel>
+            <translation><!-- Atlantic Canada Petroleum Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIOGAS</masterLabel>
+            <translation><!-- BIOGAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Black Sea Oil &amp; Gas Forum</masterLabel>
+            <translation><!-- Black Sea Oil &amp; Gas Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CACS - Kazakhstan</masterLabel>
+            <translation><!-- CACS - Kazakhstan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANWELD Expo &amp; Conference</masterLabel>
+            <translation><!-- CANWELD Expo &amp; Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHEMLAB</masterLabel>
+            <translation><!-- CHEMLAB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada Gas &amp; LNG Exhibition &amp; Conference</masterLabel>
+            <translation><!-- Canada Gas &amp; LNG Exhibition &amp; Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canadian Global Exploration Forum</masterLabel>
+            <translation><!-- Canadian Global Exploration Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canadian Hydrogen Convention</masterLabel>
+            <translation><!-- Canadian Hydrogen Convention --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape Construction Expo</masterLabel>
+            <translation><!-- Cape Construction Expo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cape Industries Showcase</masterLabel>
+            <translation><!-- Cape Industries Showcase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caspian Gas Supply</masterLabel>
+            <translation><!-- Caspian Gas Supply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central &amp; Eastern European Gas Conference</masterLabel>
+            <translation><!-- Central &amp; Eastern European Gas Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China LNG &amp; Gas International Exhibition &amp; Summit</masterLabel>
+            <translation><!-- China LNG &amp; Gas International Exhibition &amp; Summit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coatings For Africa</masterLabel>
+            <translation><!-- Coatings For Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colombian Oil &amp; Gas Congress</masterLabel>
+            <translation><!-- Colombian Oil &amp; Gas Congress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concrete Trends</masterLabel>
+            <translation><!-- Concrete Trends --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decarbonising Energy World</masterLabel>
+            <translation><!-- Decarbonising Energy World --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dubai Infrastructure Expo</masterLabel>
+            <translation><!-- Dubai Infrastructure Expo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E&amp;P Tech - Data Management &amp; Information Access</masterLabel>
+            <translation><!-- E&amp;P Tech - Data Management &amp; Information Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EGYPS</masterLabel>
+            <translation><!-- EGYPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA Unconventional E&amp;P Technology Forum</masterLabel>
+            <translation><!-- EMEA Unconventional E&amp;P Technology Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESTF Conference</masterLabel>
+            <translation><!-- ESTF Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East African Coatings Congress Kenya</masterLabel>
+            <translation><!-- East African Coatings Congress Kenya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East Mediterranean &amp; North African Gas Forum</masterLabel>
+            <translation><!-- East Mediterranean &amp; North African Gas Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eastern Canada</masterLabel>
+            <translation><!-- Eastern Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eastern Sub-Saharan Africa Gas Forum</masterLabel>
+            <translation><!-- Eastern Sub-Saharan Africa Gas Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecuador Oil &amp; Power</masterLabel>
+            <translation><!-- Ecuador Oil &amp; Power --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education Egypt</masterLabel>
+            <translation><!-- Education Egypt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egypt Infrastructure &amp; Water Expo</masterLabel>
+            <translation><!-- Egypt Infrastructure &amp; Water Expo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egypt International Security &amp; Safety Exhibition and Conference</masterLabel>
+            <translation><!-- Egypt International Security &amp; Safety Exhibition and Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egypt Mining</masterLabel>
+            <translation><!-- Egypt Mining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Egyptian Coatings Show</masterLabel>
+            <translation><!-- Egyptian Coatings Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy Connects</masterLabel>
+            <translation><!-- Energy Connects --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>European Annual Gas Conference</masterLabel>
+            <translation><!-- European Annual Gas Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>European Gas Infrastructure for Inter-connectivity &amp; Interoperability Forum</masterLabel>
+            <translation><!-- European Gas Infrastructure for Inter-connectivity &amp; Interoperability Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>European Gas Production Forum &amp; Exhibition</masterLabel>
+            <translation><!-- European Gas Production Forum &amp; Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exploration &amp; Production &amp; Processing Exhibition</masterLabel>
+            <translation><!-- Exploration &amp; Production &amp; Processing Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLNG Summer School Asia</masterLabel>
+            <translation><!-- FLNG Summer School Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLNG Summer School Europe</masterLabel>
+            <translation><!-- FLNG Summer School Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FM EXPO</masterLabel>
+            <translation><!-- FM EXPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FM EXPO Saudi</masterLabel>
+            <translation><!-- FM EXPO Saudi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FUTUREFARM</masterLabel>
+            <translation><!-- FUTUREFARM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food Next Africa</masterLabel>
+            <translation><!-- Food Next Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Furniture Interiors and Design</masterLabel>
+            <translation><!-- Furniture Interiors and Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Future Energy ASIA</masterLabel>
+            <translation><!-- Future Energy ASIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Future Energy Africa</masterLabel>
+            <translation><!-- Future Energy Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Future Interiors Manufacturing</masterLabel>
+            <translation><!-- Future Interiors Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Future Mobility Asia</masterLabel>
+            <translation><!-- Future Mobility Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GASNEWS</masterLabel>
+            <translation><!-- GASNEWS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas &amp; Oil Expo</masterLabel>
+            <translation><!-- Gas &amp; Oil Expo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas Indonesia Summit</masterLabel>
+            <translation><!-- Gas Indonesia Summit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas Mexico Congress</masterLabel>
+            <translation><!-- Gas Mexico Congress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas Nigeria Investment Summit</masterLabel>
+            <translation><!-- Gas Nigeria Investment Summit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas Trading &amp; Supply &amp; Pricing Forum</masterLabel>
+            <translation><!-- Gas Trading &amp; Supply &amp; Pricing Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas to Power Europe Forum</masterLabel>
+            <translation><!-- Gas to Power Europe Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GasAsia</masterLabel>
+            <translation><!-- GasAsia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gastech Exhibition &amp; Conference</masterLabel>
+            <translation><!-- Gastech Exhibition &amp; Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Energy Career Expo</masterLabel>
+            <translation><!-- Global Energy Career Expo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Energy Career Expo Calgary</masterLabel>
+            <translation><!-- Global Energy Career Expo Calgary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Energy Manufacturing</masterLabel>
+            <translation><!-- Global Energy Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Energy Show</masterLabel>
+            <translation><!-- Global Energy Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Gas Iran</masterLabel>
+            <translation><!-- Global Gas Iran --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Petroleum Career Exposition</masterLabel>
+            <translation><!-- Global Petroleum Career Exposition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Petroleum Show</masterLabel>
+            <translation><!-- Global Petroleum Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Power &amp; Energy Exhibition</masterLabel>
+            <translation><!-- Global Power &amp; Energy Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Unconventional Gas</masterLabel>
+            <translation><!-- Global Unconventional Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gulf Glass</masterLabel>
+            <translation><!-- Gulf Glass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gulf Solar</masterLabel>
+            <translation><!-- Gulf Solar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HVAC R Saudi</masterLabel>
+            <translation><!-- HVAC R Saudi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heavy Oil Latin America</masterLabel>
+            <translation><!-- Heavy Oil Latin America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hi Design Americas</masterLabel>
+            <translation><!-- Hi Design Americas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hi Design Asia</masterLabel>
+            <translation><!-- Hi Design Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hi Design Europe</masterLabel>
+            <translation><!-- Hi Design Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hi Design MEA</masterLabel>
+            <translation><!-- Hi Design MEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital &amp; Medical Equipment EXPO</masterLabel>
+            <translation><!-- Hospital &amp; Medical Equipment EXPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotel - Food &amp; Beverage India</masterLabel>
+            <translation><!-- Hotel - Food &amp; Beverage India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hydrogen World Exhibition &amp; Conference</masterLabel>
+            <translation><!-- Hydrogen World Exhibition &amp; Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICCUS</masterLabel>
+            <translation><!-- ICCUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDEX</masterLabel>
+            <translation><!-- INDEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDEX Indonesia</masterLabel>
+            <translation><!-- INDEX Indonesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDEX Kuwait</masterLabel>
+            <translation><!-- INDEX Kuwait --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDEX Morocco</masterLabel>
+            <translation><!-- INDEX Morocco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDEX Mumbai</masterLabel>
+            <translation><!-- INDEX Mumbai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDEX QATAR</masterLabel>
+            <translation><!-- INDEX QATAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDEX Saudi</masterLabel>
+            <translation><!-- INDEX Saudi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDUTEC</masterLabel>
+            <translation><!-- INDUTEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IRPC</masterLabel>
+            <translation><!-- IRPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ignite</masterLabel>
+            <translation><!-- Ignite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InRetail Summit Saudi</masterLabel>
+            <translation><!-- InRetail Summit Saudi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InRetail Summit UAE</masterLabel>
+            <translation><!-- InRetail Summit UAE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instrumentation &amp; Systems &amp; Automation</masterLabel>
+            <translation><!-- Instrumentation &amp; Systems &amp; Automation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Energy Capital Forum</masterLabel>
+            <translation><!-- International Energy Capital Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Energy Week</masterLabel>
+            <translation><!-- International Energy Week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Pipeline Exposition &amp; Conference</masterLabel>
+            <translation><!-- International Pipeline Exposition &amp; Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Sustainable Energy Congress</masterLabel>
+            <translation><!-- International Sustainable Energy Congress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intersolar Middle East</masterLabel>
+            <translation><!-- Intersolar Middle East --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan Energy Summit</masterLabel>
+            <translation><!-- Japan Energy Summit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan LNG &amp; Gas Summit</masterLabel>
+            <translation><!-- Japan LNG &amp; Gas Summit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KCS - Korea</masterLabel>
+            <translation><!-- KCS - Korea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KZN Construction EXPO</masterLabel>
+            <translation><!-- KZN Construction EXPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LACS - Mexico</masterLabel>
+            <translation><!-- LACS - Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LNG 360 - Latin America &amp; Caribbean Forum</masterLabel>
+            <translation><!-- LNG 360 - Latin America &amp; Caribbean Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LNG Export - North America</masterLabel>
+            <translation><!-- LNG Export - North America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M2M Conference</masterLabel>
+            <translation><!-- M2M Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MENA Solar Power Forum</masterLabel>
+            <translation><!-- MENA Solar Power Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Devices India</masterLabel>
+            <translation><!-- Medical Devices India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico Midstream Trade Mission</masterLabel>
+            <translation><!-- Mexico Midstream Trade Mission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle East Coatings Show Egypt</masterLabel>
+            <translation><!-- Middle East Coatings Show Egypt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle East Coatings Show Saudi</masterLabel>
+            <translation><!-- Middle East Coatings Show Saudi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle East Coatings Show UAE</masterLabel>
+            <translation><!-- Middle East Coatings Show UAE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle East Concrete</masterLabel>
+            <translation><!-- Middle East Concrete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle East Heavy Oil Congress</masterLabel>
+            <translation><!-- Middle East Heavy Oil Congress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle East Stone</masterLabel>
+            <translation><!-- Middle East Stone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle East eCommerce Security Summit</masterLabel>
+            <translation><!-- Middle East eCommerce Security Summit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mozambique Gas &amp; Energy Summit &amp; Exhibition</masterLabel>
+            <translation><!-- Mozambique Gas &amp; Energy Summit &amp; Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOG Conference &amp; Exhibition</masterLabel>
+            <translation><!-- NOG Conference &amp; Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North African Coatings Congress Morocco</masterLabel>
+            <translation><!-- North African Coatings Congress Morocco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North American Pipeline Congress</masterLabel>
+            <translation><!-- North American Pipeline Congress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil &amp; Gas Africa</masterLabel>
+            <translation><!-- Oil &amp; Gas Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil &amp; Gas Asset Security &amp; Critical Infrastructure Forum</masterLabel>
+            <translation><!-- Oil &amp; Gas Asset Security &amp; Critical Infrastructure Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil Barons Charity Ball</masterLabel>
+            <translation><!-- Oil Barons Charity Ball --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil Sands Trade Show &amp; Conference</masterLabel>
+            <translation><!-- Oil Sands Trade Show &amp; Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PETROCHEM</masterLabel>
+            <translation><!-- PETROCHEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLASTEX</masterLabel>
+            <translation><!-- PLASTEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMV Live</masterLabel>
+            <translation><!-- PMV Live --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific Rim LNG Summit</masterLabel>
+            <translation><!-- Pacific Rim LNG Summit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pan American Mature Fields Congres</masterLabel>
+            <translation><!-- Pan American Mature Fields Congres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Papua New Guinea Energy Summit</masterLabel>
+            <translation><!-- Papua New Guinea Energy Summit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru Oil &amp; Gas Congress &amp; Exhibition</masterLabel>
+            <translation><!-- Peru Oil &amp; Gas Congress &amp; Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petrotech</masterLabel>
+            <translation><!-- Petrotech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pipeline</masterLabel>
+            <translation><!-- Pipeline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Piscine Middle East</masterLabel>
+            <translation><!-- Piscine Middle East --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

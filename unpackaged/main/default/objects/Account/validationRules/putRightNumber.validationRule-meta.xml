@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>putRightNumber</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT(
+     AND(
+        CONTAINS( phoneNumber__c , &quot;+91&quot;), 
+        LEN( phoneNumber__c ) == 13  ,
+        ISBLANK( phoneNumber__c )
+       ) 
+    )</errorConditionFormula>
+    <errorDisplayField>phoneNumber__c</errorDisplayField>
+    <errorMessage>please provide correct</errorMessage>
+</ValidationRule>

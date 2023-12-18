@@ -1,0 +1,185 @@
+<apex:page >
+ 
+  
+    <style>
+        .oneDiv{
+            top: 10%;
+            left: 20%;
+            position: absolute;
+            width: 50%;
+            padding: 3%;
+            border: solid;
+            display: inline-block
+            
+            
+        }
+
+        button, select {
+            height: 25px;
+            margin: 1%;
+
+        }
+        .twoDiv{
+            top: 30%;
+            left: 20%;
+            position: absolute;
+            width: 50%;
+            padding: 3%;
+            border: solid;
+            display: inline-block
+            
+            
+        }
+        .oneH {
+            margin: 0;
+            padding-left: 1%;
+            padding-right: 1%;
+            display: inline-block;
+            position: absolute;
+            left: 23%;
+            top: 8.8%;
+            background-color: white;
+        }
+        .twoH {
+            margin: 0;
+            padding-left: 1%;
+            padding-right: 1%;
+            display: inline-block;
+            position: absolute;
+            left: 23%;
+            top: 28.8%;
+            background-color: white;
+        }
+        h2 {
+            top: 45%;
+            left: 17%;
+            position: absolute;
+            width: 50%;
+            padding: 3%;
+            
+            display: inline-block
+        }
+        
+
+    </style>
+
+<body>
+    
+    <div class="oneDiv">
+        <button onclick="pushLast()">Push</button>
+        <button onclick="pushFirst()">Unshift</button>
+        <button onclick="pushAt()">Insert</button>
+        <select name="" id="push" class="" >
+            <option value="0" >Select the position at which you want to insert food</option>
+            <option value="0">1</option>
+            <option value="1">2</option>
+            <option value="2">3</option>
+            <option value="3">4</option>
+        </select>
+    </div>
+    <h3 class="oneH">Add Item </h3>
+    
+    <div class="twoDiv">
+        <button title="Removes last item from array" onclick="removeLast()">Pop</button>
+        <button onclick="removeFirst()">Shift</button>
+        <button onclick="removeAt()">Remove</button>
+        <select title="Select the item on which index do you want to remove it" name="" id="pop" class="pop">
+            <option value="0">Select the position at which you want to Remove food</option>
+            <option value="0">1</option>
+            <option value="1">2</option>
+            <option value="2">3</option>
+            <option value="3">4</option>
+        </select>
+    </div>
+    <h3 class="twoH">Remove Item</h3>
+    <h2></h2>
+    
+
+
+
+
+
+    
+</body>
+<script>
+        var fruits = ["🍏", "🍎", "🍐", "🍊"];
+        var optionNum = fruits.length
+        var element  = document.querySelector("h2");
+        element.innerHTML = fruits ;
+        var newFruits = ["🍉", "🥭", "🥝", "🥦", "🧄", "🫒", "🌽", "🍋"]
+
+        function addOption(){
+            let option1 = document.createElement("option");
+            let option2 = document.createElement("option");
+            document.querySelectorAll("select")[0]
+            optionNum++;
+            option1.innerHTML = optionNum;
+            option2.value = optionNum-1;
+            option2.innerHTML = optionNum;
+            option1.value = optionNum-1;
+            
+            document.getElementById("push").append(option1);
+            document.getElementById("pop").append(option2);
+        }
+
+        function removeOption(){
+            let option1 = document.querySelectorAll("#push option");
+            let lastOption1 = option1[option1.length - 1];
+            lastOption1.remove();
+            let option2 = document.querySelectorAll("#pop option");
+            let lastOption2 = option2[option2.length - 1];
+            lastOption2.remove();
+            optionNum--;
+        }
+
+
+        function pushFirst(){
+            fruits.unshift(newFruits[Math.floor(Math.random()*(newFruits.length))]);
+            element.innerHTML = "[ " +fruits + " ]";
+            console.log(fruits[0]);
+            addOption();
+            
+        }
+
+        function pushLast(){
+            fruits.push(newFruits[Math.floor(Math.random()*(newFruits.length))]);
+            element.innerHTML = "[ " +fruits + " ]";
+            addOption();
+        }
+        
+        function pushAt(){
+            fruits.splice(document.getElementById("push").value, 0, newFruits[Math.floor(Math.random()*(newFruits.length))]);
+            element.innerHTML = "[ " +fruits + " ]";
+            addOption();
+            document.getElementById("push").value = 0 ;
+
+        }
+        
+        function removeFirst(){
+            fruits.shift();
+            element.innerHTML = "[ " +fruits + " ]";
+            if(optionNum > 0){
+                removeOption();
+            }
+            
+        }
+        
+        function removeLast(){
+            fruits.pop();
+            element.innerHTML = "[ " +fruits + " ]";
+            if(optionNum > 0){
+                removeOption();
+            }
+        }
+
+        function removeAt(){
+            fruits.splice(document.getElementById("pop").value, 1);
+            element.innerHTML = "[ " +fruits + " ]";
+            document.getElementById("pop").value = 0 ;
+            if(optionNum > 0){
+                removeOption();
+            }
+        }
+
+    </script>
+</apex:page>

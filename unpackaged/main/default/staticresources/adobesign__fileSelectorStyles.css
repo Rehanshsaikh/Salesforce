@@ -1,0 +1,25 @@
+.adobesign-file-selector-multiline .slds-file-selector {
+    display: block;
+}
+
+.adobesign-file-selector-multiline .slds-file-selector__dropzone {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5rem;
+}
+
+.adobesign-file-selector-multiline .slds-file-selector__dropzone slot {
+    width: 100%;
+}
+
+.adobesign-file-selector-multiline .slds-file-selector_files .slds-file-selector__body {
+    display: block;
+    text-align: center;
+}
+
+.adobesign-file-selector-multiline .slds-file-selector_files .slds-file-selector__text {
+    margin-top: 0.75rem;
+}
