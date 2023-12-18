@@ -20,6 +20,7 @@ public class sentEmailSchedule implements Schedulable {
             List<Messaging.SingleEmailMessage> mssgList = new List<Messaging.SingleEmailMessage>();
             Set<Id> newCaseIds = new Set<Id>();
             if(caseList.size()>0){
+                System.debug('I am testing the org deployment');
                 for(Case cs: caseList){
                     newCaseIds.add(cs.Id);
                     Messaging.SingleEmailMessage mssg = new Messaging.SingleEmailMessage();
